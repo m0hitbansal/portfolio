@@ -345,6 +345,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/mohit_bansal_resume.pdf.pdf" title="moht bansal resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/mohit_bansal_resume.pdf" title="moht bansal resume" frameBorder="0"></iframe>
     )
 }
