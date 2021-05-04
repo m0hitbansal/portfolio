@@ -148,7 +148,7 @@ function Education() {
                     <div className=" text-sm md:text-base">Mtech in Computer Science & Engineering</div>
                     <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 3.65/4</div>
                 </li>
-                <li className="list-disc">
+                <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
                         Gurukul Kangri University Hairdwar
                     </div>
@@ -199,6 +199,8 @@ function Skills() {
                         <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="mohit javascript" />
                         <img className="m-1" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white" alt="mohit c++" />
                         <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="moht python" />
+                        <img className="m-1" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="moht java" />
+
 
                         <a href="https://www.google.com/search?q=is+html+a+language%3F" target="_blank" rel="noreferrer"><img title="yes it's a language!" className="m-1" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat&logo=html5&logoColor=ffffff" alt="moht HTML" /></a>
 
@@ -208,18 +210,19 @@ function Skills() {
                 </div>
                 <div className="px-2 flex flex-wrap items-start w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className=" m-1" src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff" alt="moht react" />
-                        <img className="m-1" src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white" alt="moht flutter" />
-                        <img className="m-1" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="moht tailwind css" />
+                        <img className=" m-1" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="moht react" />
+                        <img className="m-1" src="https://img.shields.io/badge/Aurelia-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="moht aurelia" />
+                        <img className="m-1" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="moht flask" />
                         <img src="https://img.shields.io/badge/-Nodejs-339933?style=flat&logo=Node.js&logoColor=ffffff" alt="moht node.js" className="m-1" />
                         <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white" alt="moht jquery" className="m-1" />
-                        <img className="m-1" src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white" alt="moht redux" />
+                        <img className="m-1" src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white" alt="moht Jenkins" />
+                        <img className="m-1" src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="moht Docker" />
                     </div>
                 </div>
             </div>
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list mt-4">
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <span> And ofcourse,</span> <img className=" inline ml-1" src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff" alt="moht linux" /> <span>!</span>
+                    <span> And ofcourse,</span> <img className=" inline ml-1" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="moht linux" /> <span>!</span>
                 </li>
             </ul>
         </>
@@ -229,74 +232,67 @@ function Skills() {
 function Projects() {
     const project_list = [
         {
-            name: "economist.com Unlocked",
-            date: "Mar 2021",
-            link: "https://github.com/m0hitbansal/economist.com-unlocked",
+            name: "Outgoing Management Portal Using DevOps",
+            date: "Mar 2020",
+            link: "https://github.com/m0hitbansal/Outgoing-Managment-Portal/tree/master/doc",
             description: [
-                "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
+                "The portal is primarily developed using DevOps toolchain to store the incoming and outgoing activities of the students and provide timely notification to its respective users.",
             ],
-            domains: ["javascript", "chrome-extension"]
+            domains: ["Node Js", "DevOps tools"]
         },
         {
-            name: "Flutter banking app",
-            date: "Jan 2021",
-            link: "https://github.com/m0hitbansal/flutter-banking-app",
+            name: "SWRE---A-rule-engine-for-semantic-web",
+            date: "Mar 2020",
+            link: "https://github.com/m0hitbansal/SWRE---A-rule-engine-for-semantic-web",
             description: [
-                "A Flutter & Firebase project for creating transactions between different Users and displaying the history of transactions done by all.",
+                "The goal of the Semantic Web is to make Internet data machine-readable. To enable the encoding of semantics with the data, technologies such as RDF and OWL are used.",
             ],
-            domains: ["flutter", "firestore", "dart", "firebase auth"]
+            domains: ["Java", "Mysql", "Apache Jena"]
         },
         {
-            name: "CPU scheduling application",
-            date: "Dec 2020",
-            link: "https://github.com/m0hitbansal/CPU-Scheduling-APP-React-Native",
+            name: "Ticket Booking System using Socket Programming",
+            date: "Sep 2019",
+            link: "https://github.com/m0hitbansal/Trainmepar",
             description: [
-                "React Native Application to visualize the CPU Scheduling algorithms with different Processes and Animations with gannt chart.",
+                "This is Railway managment system using socket programming ,multi client-server concept and file Locking protocol.",
             ],
-            domains: ["react-native", "javascript"]
+            domains: ["C/C++", "Socket Programming", "System Calls"]
         },
         {
-            name: "Meditech Healthcare WebApp",
-            date: "Nov 2020",
+            name: "sms-my-device",
+            date: "April 2019",
             link: "https://github.com/m0hitbansal/Meditech-Healthcare",
             description: [
-                "Developed Web Application to predict and diagnose diseases from x-ray images.",
+                "Access your phone from anywhere without Internet.",
             ],
-            domains: ["javascript", "html5", "sass", "firebase", "tensorflow"]
+            domains: ["Apache Cordova", "html5", "Ionic"]
         },
         {
-            name: "Problem Recommendation System",
-            date: "Sep 2020",
-            link: "https://github.com/m0hitbansal/Improve-Codeforces",
-            description: [
-                "Django web application to suggest practice problems from the areas in which the user struggles to get pass in code-forces.",
-            ],
-            domains: ["django", "python", "codeforces-api", "javascript"]
-        },
-        {
-            name: "Cleanliness Automation",
+            name: "Captcha-Detection",
             date: "Dec 2019",
-            link: "https://github.com/m0hitbansal/CPU-Scheduling-APP-React-Native",
+            link: "https://github.com/m0hitbansal/Captcha-Detection",
             description: [
-                "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
+                "Detecting Captcha using machine Learning model",
             ],
+            domains: ["python", "php"]
         }
     ];
 
     const tag_colors = {
         "javascript": "yellow-300",
-        "firebase": "red-600",
-        "firestore": "red-500",
-        "chrome-extension": "yellow-400",
-        "flutter": "blue-400",
-        "dart": "blue-500",
-        "react-native": "purple-500",
+        "Apache Cordova": "red-600",
+        "Ionic": "red-500",
+
+        "php": "blue-400",
+        "C/C++": "blue-500",
+        "Socket Programming": "blue-500",
+        "System Calls": "red-600",
+        "Mysql": "purple-500",
+        "Apache Jena": "purple-500",
         "html5": "pink-600",
-        "sass": "pink-400",
-        "tensorflow": "yellow-600",
-        "django": "green-600",
+        "Node Js": "yellow-400",
+        "DevOps tools": "pink-400",
         "python": "green-200",
-        "codeforces-api": "gray-300",
     }
 
     return (
